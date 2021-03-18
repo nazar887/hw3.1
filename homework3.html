@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    .father{
+      width: 600px;
+      height: 400px;
+      background: silver;
+      margin: 0 auto;
+    }
+    .box{
+      width: 200px;
+      height: 200px;
+    }
+    .flex{
+      display: flex;
+      justify-content: initial;
+      align-content: flex-end;
+      flex-wrap: wrap-reverse;
+
+    }
+    .rose-one {
+      background: mistyrose;
+      color: black;
+    }
+    .gold-one{
+      background: gold;
+      color: black;
+    }
+    .blue-one{
+      background: #b3d4fc;
+      color: black;
+
+    }
+    .padding{
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  </style>
+</head>
+<body>
+<div class="father flex">
+<div class="box rose-one padding">Rose</div>
+  <div class="box gold-one padding">Gold</div>
+  <div class="box blue-one padding ">Blue</div>
+</div>
+
+</body>
+</html>
